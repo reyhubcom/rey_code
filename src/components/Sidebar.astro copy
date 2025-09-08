@@ -21,8 +21,8 @@ const { selectedItem } = Astro.props;
           class="niv-image"
         />
         <div>
-          <div class="label-white">Mayo Exchange</div>
-          <div class="label-gray">Faster</div>
+          <div class="label-white">Sam Bernstein</div>
+          <div class="label-gray">Software Engineer</div>
         </div>
       </div>
     </a>
@@ -57,7 +57,7 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>Crypto List</div>
+        <div>Software development</div>
       </a>
       <a
         href="/devops"
