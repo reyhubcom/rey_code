@@ -24,7 +24,7 @@ const projects = [
   <Header title="Software Development | Sam Bernstein" />
   <body>
     <div class="content">
-        <Sidebar selectedItem="crypto" />
+        <Sidebar selectedItem="software-development" />
       <nav class="main">
         <div class="container">
           <div class="back-nav-container">
@@ -37,7 +37,13 @@ const projects = [
             <h1>Crypto List</h1>
             <section class="items-container">
                 <div class="resouce-items">
-                 
+                    {projects.map(project => (
+                      <Project 
+                        title={project.title} 
+                        desc={project.desc}
+                        tech={project.tech}
+                      />
+                    ))}
                   </div>
 
                   <!-- TradingView Widget BEGIN -->
