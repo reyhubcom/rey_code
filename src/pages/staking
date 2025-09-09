@@ -1,0 +1,143 @@
+---
+import Header from "../components/Header.astro";
+import Sidebar from "../components/Sidebar.astro";
+---
+
+
+<!DOCTYPE html>
+<html
+>
+  <Header title="Instant Cryptocurrency Exchange" />
+  <body>
+   
+    <div class="content">
+      <Sidebar selectedItem="home" />
+      <nav class="main">
+        <div class="container">
+          <main class="fold-content-container">
+            <div class="fold-content">
+              <h1><br />Limitless Web3 Exchange</h1>
+              <p class="lead">
+               Fast Crypto Exchange The Average Time for Exchange is About 2 minutes. You Can Track The Crypto Swap Progress on The Exchange Page.
+              </p>
+            </div>
+            <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="coins" lcw-marquee-items="30" ></div>
+
+          <iframe id='iframe-widget' src='https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=true&amount=0.1&amountFiat=1500&backgroundColor=191818&darkMode=true&from=btc&fromFiat=eur&horizontal=false&isFiat&lang=en-US&link_id=537f0c2ee20bbe&locales=true&logo=false&primaryColor=00C26F&to=eth&toFiat=eth&toTheMoon=true' style="height: 420px; width: 100%; border: none"></iframe>
+         <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
+          </main>
+          <div class="projects-section">
+            
+             <!-- Software Development -->
+            <a href="/software-development" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container">
+                  
+              <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+             <dotlottie-wc src="https://lottie.host/60962dd5-bf5d-4ff0-9fc9-309f544f3bbf/pRr9sf7Gs7.lottie" speed="0.5" style="width: 150px; height: 150px" mode="forward" loop autoplay></dotlottie-wc>      
+
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>Choose Currency</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Pick One Of 1 M+ Supported Currency Pair From The List.</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">Bitcoin</div>
+                    <div class="single-chip small-chip">Ethereum</div>
+                    <div class="single-chip small-chip">Solana</div>
+                    <div class="single-chip small-chip">Binance</div>
+                    <div class="single-chip small-chip">Avalanche</div>
+                    <div class="single-chip small-chip">Base</div>
+                    <div class="single-chip small-chip">Atom</div>
+                    <div class="single-chip small-chip">Polygon</div>
+                    <div class="single-chip small-chip">Pulse</div>
+                    <div class="single-chip small-chip">Ripple</div>
+                    <div class="single-chip small-chip">Doge</div>
+                    <div class="single-chip small-chip">Tron</div>
+                    <div class="single-chip small-chip">Cardano</div>
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            <!-- Software Development -->
+            <a href="/software-development" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container">
+
+                 <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+                 <dotlottie-wc src="https://lottie.host/f73f4f6f-9cbd-4031-bc1e-cbbd3c7a9bdb/oE3ABRGXwT.lottie" speed="0.5" style="width: 150px; height: 150px" mode="forward" loop autoplay></dotlottie-wc>  
+
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>Make Deposit</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Confirm Detail And Send Your Asset To The Generated Address.</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">ChainLink</div>
+                    <div class="single-chip small-chip">Stellar</div>
+                    <div class="single-chip small-chip">Node.js</div>
+                    <div class="single-chip small-chip">Bitcoin Cash</div>
+                    <div class="single-chip small-chip">Heroku</div>
+                    <div class="single-chip small-chip">RabbitMQ</div>
+                    <div class="single-chip small-chip">Express.js</div>
+                    <div class="single-chip small-chip">TypeScript</div>
+                    <div class="single-chip small-chip">NestJS</div>
+                    <div class="single-chip small-chip">Angular</div>
+                    <div class="single-chip small-chip">Postgres</div>
+                    <div class="single-chip small-chip">Linode</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- DevOps & Cloud -->
+            <a href="/devops" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container devops-img">
+
+                  <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+                  <dotlottie-wc src="https://lottie.host/3e60e6f2-4a02-4c12-bf66-56543f99e3df/xut0YwoSF0.lottie" speed="0.5" style="width: 150px; height: 150px" mode="forward" loop autoplay></dotlottie-wc>
+
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>Receive Crypto</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Receive Exchanged Crypto With The Best Possible Rate.</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">Terraform</div>
+                    <div class="single-chip small-chip">Azure</div>
+                    <div class="single-chip small-chip">AWS</div>
+                    <div class="single-chip small-chip">Docker</div>
+                    <div class="single-chip small-chip">Kubernetes</div>
+                    <div class="single-chip small-chip">GitLab CI/CD</div>
+                    <div class="single-chip small-chip">RKE</div>
+                    <div class="single-chip small-chip">Node.js</div>
+                    <div class="single-chip small-chip">RabbitMQ</div>
+                    <div class="single-chip small-chip">Linux</div>
+                    <div class="single-chip small-chip">Bash</div>
+                    <div class="single-chip small-chip">Grafana</div>
+                    <div class="single-chip small-chip">Prometheus</div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  </body>
+  
+  <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "95370237-8a38-471a-9c1c-31e780a00245"
+  });
+</script>
+</html>
