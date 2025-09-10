@@ -83,7 +83,38 @@ import Sidebar from "../components/Sidebar.astro";
           </main>
           <div class="projects-section">
             
-           
+             <!-- Software Development -->
+            <a href="https://reyhub.com" class="projects-container">
+              <div class="single-projects-category">
+                <div class="projects-category-image-container">
+                  
+             <img src="./assets/eth.svg" loading="lazy" alt="" class="projects-category-image" />  
+
+                </div>
+              </div>
+              <div class="single-projects-content">
+                <h4>Ethereum Ecosystem</h4>
+                <div class="tech-tools-container">
+                  <div class="mini-label-white gray-color">Pick One Of 1 M+ Supported Currency Pair From The List.</div>
+                  <div class="chips-container chips-container-small-width">
+                    <div class="single-chip small-chip">Bitcoin</div>
+                    <div class="single-chip small-chip">Ethereum</div>
+                    <div class="single-chip small-chip">Solana</div>
+                    <div class="single-chip small-chip">Binance</div>
+                    <div class="single-chip small-chip">Avalanche</div>
+                    <div class="single-chip small-chip">Base</div>
+                    <div class="single-chip small-chip">Atom</div>
+                    <div class="single-chip small-chip">Polygon</div>
+                    <div class="single-chip small-chip">Pulse</div>
+                    <div class="single-chip small-chip">Ripple</div>
+                    <div class="single-chip small-chip">Doge</div>
+                    <div class="single-chip small-chip">Tron</div>
+                    <div class="single-chip small-chip">Cardano</div>
+                    
+                  </div>
+                </div>
+              </div>
+            </a>
             
           
             <!-- DevOps & Cloud -->
