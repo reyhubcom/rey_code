@@ -14,12 +14,6 @@ import Sidebar from "../components/Sidebar.astro";
       <Sidebar selectedItem="staking" />
       <nav class="main">
         <div class="container">
-            <div class="container">
-          <div class="back-nav-container">
-            <a href="/" class="back-nav-button w-inline-block"
-              ><img src="/assets/back.svg" loading="lazy" alt="" class="back-nav-img" />
-              <div>Back</div></a
-            >
           <main class="fold-content-container">
             <div class="fold-content">
               <h1><br />Staking Crypto</h1>
