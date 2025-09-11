@@ -14,12 +14,15 @@ const { selectedItem } = Astro.props;
   <div class="nav-content">
     <a href="/" class="w-nav-brand" aria-label="home">
       <div class="niv-data">
-       <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/b5dc8852-3c0a-4206-8b45-54598be4adad/3CFJP5J54r.lottie" speed="0.5" style="width: 60px; height: 60px" mode="forward" loop autoplay></dotlottie-wc>
-   
+        <img
+          src="/assets/sam.jpg"
+          loading="eager"
+          alt="Profile picture"
+          class="niv-image"
+        />
         <div>
-          <div class="label-white">Kas.Ad</div>
-          <div class="label-gray">Validator & Delegate</div>
+          <div class="label-white">Sam Bernstein</div>
+          <div class="label-gray">Software Engineer</div>
         </div>
       </div>
     </a>
