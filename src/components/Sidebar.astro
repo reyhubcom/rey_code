@@ -21,8 +21,8 @@ const { selectedItem } = Astro.props;
           class="niv-image"
         />
         <div>
-          <div class="label-white">Mayo Exchange</div>
-          <div class="label-gray">Faster</div>
+          <div class="label-white">Sam Bernstein</div>
+          <div class="label-gray">Software Engineer</div>
         </div>
       </div>
     </a>
@@ -57,10 +57,10 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>Staking</div>
+        <div>Software development</div>
       </a>
       <a
-        href="/staking"
+        href="/devops"
         class={`nav-link-container w-inline-block ${
           selectedItem === 'devops' ? 'w--current' : ''
         }`}
@@ -71,21 +71,21 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>Bridge</div>
+        <div>DevOps</div>
       </a>
       <a
-        href="/staking"
+        href="/personal-projects"
         class={`nav-link-container w-inline-block ${
           selectedItem === 'personal-projects' ? 'w--current' : ''
         }`}
       >
         <img
-          src="/assets/eth.svg"
+          src="/assets/favorite.svg"
           loading="eager"
           alt=""
           class="nav-link-image"
         />
-        <div> ETH Staking</div>
+        <div>Personal projects</div>
       </a>
     </nav>
 
