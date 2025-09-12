@@ -67,10 +67,10 @@ const { selectedItem } = Astro.props;
           alt=""
           class="nav-link-image"
         />
-        <div>DeFi</div>
+        <div>DevOps</div>
       </a>
       <a
-        href="/defi"
+        href="/personal-projects"
         class={`nav-link-container w-inline-block ${
           selectedItem === 'personal-projects' ? 'w--current' : ''
         }`}
